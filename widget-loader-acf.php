@@ -6,7 +6,7 @@ $post_types = self::$config['post_types'];
 
 $widget_config = [
   'key' => $key,
-  'name' => 'widget_related_articles',
+  'name' => 'related_articles',
   'label' => 'Related Articles',
   'display' => 'block',
   'sub_fields' => [
@@ -29,7 +29,7 @@ $widget_config = [
       'label' => 'Posts',
       'name' => 'posts',
       'type' => 'repeater',
-      'instructions' => 'Add a maximum of 7 posts',
+      'instructions' => 'Add a maximum of 4 posts',
       'layout' => 'row',
       'button_label' => 'Add post',
       'min' => 1,
