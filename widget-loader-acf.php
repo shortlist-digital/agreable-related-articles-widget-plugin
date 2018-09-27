@@ -6,7 +6,7 @@ $post_types = self::$config['post_types'];
 
 $widget_config = [
   'key' => $key,
-  'name' => 'related_articles',
+  'name' => 'widget_related_articles',
   'label' => 'Related Articles',
   'display' => 'block',
   'sub_fields' => [
@@ -33,12 +33,12 @@ $widget_config = [
       'layout' => 'row',
       'button_label' => 'Add post',
       'min' => 1,
-      'max' => 7,
+      'max' => 4,
       'sub_fields' => [
         [
           'key' => $key . '_posts_manual',
           'label' => 'Post',
-          'name' => 'posts',
+          'name' => 'post',
           'type' => 'post_object',
           'post_type' => $post_types,
           'multiple' => 0,
