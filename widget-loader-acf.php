@@ -42,7 +42,7 @@ $widget_config = [
           'type' => 'post_object',
           'post_type' => $post_types,
           'multiple' => 0,
-          'return_format' => 'id',
+          'return_format' => 'object',
           'ui' => 1,
           'required' => 1
         ],
